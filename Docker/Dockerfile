@@ -4,8 +4,6 @@ services:
 
   mongo:
     image: mongo
-    ports: 
-     - 27017:27017
     restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
